@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking | DJ HardTech</title>
+  <meta name="description" content="Peça DJ HardTech para festas em Curitiba e região. O formulário monta o briefing de booking para enviar no Instagram.">
+  <meta property="og:title" content="Booking | DJ HardTech">
+  <meta property="og:description" content="Data, casa e cidade para levar o Tech House autoral à pista.">
+  <meta property="og:image" content="assets/banner-hardtech.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#e4ff4a"/><path fill="#14160a" d="M11 10h5v7h8V10h5v20h-5v-8h-8v8h-5V10z"/></svg><span>HardTech</span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <nav class="nav" id="menu" data-nav aria-label="Principal">
+        <a href="index.html">Início</a><a href="lp.html">LP Nova Fase</a><a href="discografia.html">Discografia</a><a href="agenda.html">Agenda e casas</a><a href="imprensa.html">Imprensa</a><a href="campanhas.html">Campanhas</a><a href="contato.html" aria-current="page">Booking</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo" class="section">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Contato de trabalho</p>
+        <h1>Leve o set para a festa.</h1>
+        <p class="lede">O canal público confirmado é o Instagram @hardtech_dj. O formulário não envia servidor: ele confere os dados e monta o briefing para você copiar e mandar no direct.</p>
+        <div class="actions">
+          <a class="btn" href="https://www.instagram.com/hardtech_dj/" rel="noopener noreferrer">Abrir Instagram</a>
+          <a class="btn ghost" href="imprensa.html">Baixar press kit</a>
+        </div>
+        <div class="timeline">
+          <article><time>Curitiba</time><p>Festas da capital e da região metropolitana, inclusive Pinhais, casa do Park Art.</p></article>
+          <article><time>Formato</time><p>Set autoral, back-to-back com Bullet Time ou lançamento de selo na pista.</p></article>
+          <article><time>Cabine</time><p>O rider em texto está no press kit. Ajuste fino combina com a casa.</p></article>
+        </div>
+      </div>
+      <form class="form" data-booking novalidate>
+        <div class="fields">
+          <label>Nome <input name="nome" autocomplete="name" required></label>
+          <div class="fields two">
+            <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+            <label>Data <input name="data" type="date" required></label>
+          </div>
+          <div class="fields two">
+            <label>Cidade <input name="cidade" autocomplete="address-level2" required></label>
+            <label>Casa ou festa <input name="casa" placeholder="Park Art, festa privada, festival"></label>
+          </div>
+          <label>O que a pista precisa <textarea name="mensagem" required placeholder="Horário, estilo da casa, se é B2B e público esperado."></textarea></label>
+          <label class="check"><input type="checkbox" name="consent" value="sim" required> <span>Li a <a href="privacidade.html">política de privacidade</a> e aceito o uso destes dados para responder o pedido.</span></label>
+          <p class="error" data-form-error role="alert"></p>
+          <button class="btn" type="submit">Montar briefing</button>
+          <div class="success" data-form-success>
+            <p>Briefing pronto. Copie e envie no Instagram. Nenhum e-mail saiu sozinho deste site.</p>
+            <pre data-brief></pre>
+            <button class="btn ghost" type="button" data-copy="[data-brief]">Copiar briefing</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-grid"><div><p class="eyebrow">Booking</p><p>Se você autorizar cookies funcionais, o rascunho fica só neste navegador.</p></div><div class="link-list"><a href="privacidade.html">Privacidade</a><button class="btn ghost" type="button" data-open-consent>Preferências</button></div><div class="link-list"><a href="agenda.html">Casas</a><a href="press/rider.txt" download>Rider</a></div><div></div></div></footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
