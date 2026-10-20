@@ -57,6 +57,7 @@
     <section class="hero hero-stage" aria-labelledby="hero-title">
       <div class="wrap">
         <div class="stage">
+          <div data-photo-wall data-photo-layout="collage" data-photo-ids="parkart-prata,palco-sonho,secret-groove,balance-set" aria-hidden="true"></div>
           <canvas data-hero-canvas aria-hidden="true"></canvas>
           <div class="stage-copy">
             <h1 id="hero-title">HardTech</h1>
@@ -81,6 +82,21 @@
       </div>
     </section>
 
+    <div data-photo-wall data-photo-layout="strip" data-photo-filter="all" aria-label="Fotos do Instagram"></div>
+
+    <section class="section section-photos" aria-labelledby="na-pista">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Instagram · @hardtech_dj</p>
+            <h2 id="na-pista">Na pista e na casa.</h2>
+          </div>
+          <p>Apanha do <a href="https://www.instagram.com/hardtech_dj/" rel="noopener noreferrer">perfil público</a>: sets, casas e palco.</p>
+        </div>
+        <div data-photo-wall data-photo-filter="pista"></div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="wrap">
         <div class="section-head">
@@ -89,6 +105,10 @@
             <h2>Pista de Curitiba, ficha de selo.</h2>
           </div>
           <p>A bio pública define o ofício em uma linha: DJ, produtor, Tech House e groove. Os posts sustentam isso com lançamento, back-to-back e agradecimento a quem abre a casa.</p>
+        </div>
+        <div class="split" style="margin-bottom:2rem;align-items:start">
+          <div data-photo-wall data-photo-ids="profile,mixar,parkart-casa" data-photo-layout="wall"></div>
+          <p class="lede" style="margin:0">Fotos do feed em moldura lima e cobre, alinhadas ao press kit.</p>
         </div>
         <div class="grid-3">
           <article class="card reveal">
@@ -159,6 +179,19 @@
       </div>
     </section>
 
+    <section class="section section-photos" aria-labelledby="nos-selos">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selos</p>
+            <h2 id="nos-selos">Capas do feed.</h2>
+          </div>
+          <p>Lançamentos que o Instagram do artista e dos selos já publicou.</p>
+        </div>
+        <div data-photo-wall data-photo-filter="selo"></div>
+      </div>
+    </section>
+
     <section class="section campaign-lead" aria-labelledby="lp-campanha">
       <div class="wrap lp-hero">
         <figure class="cover">
@@ -203,5 +236,6 @@
     </div>
   </footer>
   <script src="js/site.js"></script>
+  <script src="js/gallery.js"></script>
 </body>
 </html>

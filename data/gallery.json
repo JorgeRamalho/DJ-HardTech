@@ -1,0 +1,25 @@
+{
+  "source": "Perfil https://www.instagram.com/hardtech_dj/ — imagens baixadas via og:image/CDN de cada post (scripts/refresh-gallery-images.py). Não usar screenshot da página (gera modal de login).",
+  "items": [
+    { "id": "profile", "file": "profile.jpg", "caption": "Vinicius Mangini · @hardtech_dj", "tag": "artista", "post": "https://www.instagram.com/hardtech_dj/", "span": "sm" },
+    { "id": "palco-sonho", "file": "palco-sonho.jpg", "caption": "O palco do sonho · dezembro 2024", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/DDF3-cnRQAc/", "span": "lg" },
+    { "id": "parkart-prata", "file": "parkart-prata.jpg", "caption": "Estreia no Park Art · prata no Circuito", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/DA1eAlcvmWU/", "span": "wide" },
+    { "id": "mixar", "file": "mixar.jpg", "caption": "Estúdio Mixar · Park Live Curitiba", "tag": "estudio", "post": "https://www.instagram.com/hardtech_dj/p/C74qmGEPT8P/", "span": "md" },
+    { "id": "balance-baile", "file": "balance-baile.jpg", "caption": "Balance Music · baile em família", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/Dbo4hiZlGAX/", "span": "md" },
+    { "id": "secret-groove", "file": "secret-groove.jpg", "caption": "Secret Groove · B2B", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/DbJypfclCqg/", "span": "tall" },
+    { "id": "balance-set", "file": "balance-set.jpg", "caption": "Set 100% autoral · Balance", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/DYNtmUdFGyb/", "span": "wide" },
+    { "id": "parkart-casa", "file": "parkart-casa.jpg", "caption": "Park Art · referência em casa", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/p/DP_MxKBjUNa/", "span": "md" },
+    { "id": "b2b-reel", "file": "b2b-reel.jpg", "caption": "Groove e sarro que voa · set B2B", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/reel/DTsrZ_WkcNG/", "span": "md" },
+    { "id": "cracker-reel", "file": "cracker-reel.jpg", "caption": "Cracker Jack · Klexos", "tag": "selo", "post": "https://www.instagram.com/hardtech_dj/reel/DRPP3k8jfZV/", "span": "sm" },
+    { "id": "pulse", "file": "pulse.jpg", "caption": "Pulse Parties · prévia Cups", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/reel/DSTlDW6DfGs/", "span": "md" },
+    { "id": "reel-pista", "file": "reel-pista.jpg", "caption": "Na pista · abril 2026", "tag": "pista", "post": "https://www.instagram.com/hardtech_dj/reel/DXsUDs8EXxF/", "span": "sm" },
+    { "id": "savitar", "file": "savitar-get-down-low.jpg", "caption": "Get Down Low · Savitar", "tag": "selo", "post": "https://www.instagram.com/savitar_records/p/DabZN7vjvjz/", "span": "md" },
+    { "id": "players", "file": "players-ep.jpg", "caption": "That's The Way EP · Players", "tag": "selo", "post": "https://www.instagram.com/playerslabel/p/DaDM05LGPRB/", "span": "md" },
+    { "id": "hotoven", "file": "hotoven-flexinn.jpg", "caption": "Flexinn / Control · Hotoven", "tag": "selo", "post": "https://www.instagram.com/hotovenrecords/p/Dc4LeuLlpHJ/", "span": "wide" },
+    { "id": "afterroom", "file": "afterroom-mind.jpg", "caption": "Mind The Game · After Room", "tag": "selo", "post": "https://www.instagram.com/afterroomrecords/p/DY68s7uETnw/", "span": "sm" },
+    { "id": "balance-after", "file": "balance-after-poster.jpg", "caption": "After Balance · Play Music CWB", "tag": "cena", "post": "https://www.instagram.com/balancemusiclabel/p/DdeKAZIuFIl/", "span": "tall" },
+    { "id": "dacusan", "file": "dacusan-no-warning.jpg", "caption": "No Warning EP · Dacusan", "tag": "selo", "post": "https://www.instagram.com/dacusan_music_record/p/DTSxv-5ih8n/", "span": "md" },
+    { "id": "klexos", "file": "klexos-bandicoot.jpg", "caption": "Bandicoot · Klexos", "tag": "selo", "post": "https://www.instagram.com/klexosrecordsgroup/p/DSKghT6DfBc/", "span": "sm" },
+    { "id": "lsm-bailao", "file": "lsm-bailao.jpg", "caption": "Bailão EP · Last Standin' Monitors", "tag": "selo", "post": "https://www.instagram.com/laststandinmonitors/p/DUmI6fZCM4q/", "span": "lg" }
+  ]
+}
